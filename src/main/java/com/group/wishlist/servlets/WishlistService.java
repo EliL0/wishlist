@@ -11,8 +11,8 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 
-@WebServlet(name = "wishlistServlet", value = "/wishlist-request")
-public class WishlistServlet extends HttpServlet {
+@WebServlet(name = "wishlistService", value = "/wishlist-request")
+public class WishlistService extends HttpServlet {
     private List<WishlistEntry> entries;
 
     public void init() {
